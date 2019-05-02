@@ -73,8 +73,7 @@ with cmd._build_session(options) as session:
     trusted_hosts=options.trusted_hosts,
     session=session,
   )
-  if getattr(options, 'process_dependency_links', None):
-    finder_options['process_dependency_links'] = options.process_dependency_links
+
   if getattr(options, 'format_control', None):
     finder_options['format_control'] = options.format_control
   finder = PackageFinder(**finder_options)
