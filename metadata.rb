@@ -1,3 +1,3 @@
 name             'poise-python'
-version          '0.1.7'
+version          '1.8.0'
 
